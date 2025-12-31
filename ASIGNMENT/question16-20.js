@@ -36,3 +36,16 @@ for (let i = 1; i <= number; i++) {
         console.log(i);
     }
 }
+//0. Create variables hour (value 14) 
+// representing time in 24-hour format. Write code that prints "Good morning" (5-11), "Good afternoon" (12-17), "Good evening" (18-21), or "Good night" (22-4).
+let hour = 14;
+if (hour >= 5 && hour <= 11) {
+    console.log("Good morning");
+} else if (hour >= 12 && hour <= 17) {
+    console.log("Good afternoon");
+} else if (hour >= 18 && hour <= 21) {
+    console.log("Good evening");
+} else {
+    // This handles the "Good night" hours: 22, 23, 0, 1, 2, 3, 4
+    console.log("Good night");
+}
