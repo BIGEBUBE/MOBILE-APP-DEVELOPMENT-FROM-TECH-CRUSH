@@ -16,7 +16,6 @@ if (age >= 18 && hasLicense) {
 }
 //18. Create a variable totalAmount with value 1000 and isMember with value true. 
 // If the person is a member, apply a 20% discount, otherwise 5% discount. Calculate and print the final amount. 
-// 18. Membership Discount Calculator
 let totalAmount = 1000;
 let isMember = true;
 let finalAmount;
@@ -28,3 +27,12 @@ if (isMember) {
     console.log("Not a member. You saved 5%.");
 }
 console.log("Your final amount is:", finalAmount);
+//19. Write code with a variable number (value 15).
+//  Print all numbers from 1 to that number, but only print numbers divisible by 3. 
+let number = 15;
+for (let i = 1; i <= number; i++) {
+    // Check if the current number (i) is divisible by 3
+    if (i % 3 === 0) {
+        console.log(i);
+    }
+}
