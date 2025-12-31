@@ -1,0 +1,36 @@
+JavaScript Coding Exercises. 
+1. Declare three variables: firstName, lastName, and age. Assign them appropriate values and print a sentence like "My name is John Doe and I am 25 years old." 
+2. Create two variables num1 and num2 with values 15 and 8. Calculate and print their sum, difference, product, and quotient. 
+3. Declare a variable temperature with value 22. Write an if-else statement that prints 
+"It's cold" if temperature is less than 20, otherwise print "It's warm". 
+4. Create a variable price with value 50 and another variable discount with value 10. 
+Calculate the final price after discount and print it. 
+5. Declare a variable number with any value. Write code to check if the number is positive, negative, or zero, and print the result. 
+6. Create a variable score with value 75. Write code that prints "Pass" if score is 50 or above, otherwise print "Fail". 
+7. Declare two variables a and b with values 12 and 15. Write code to check if a is greater than b and print an appropriate message. 
+8. Create a variable age with value 16. Write code that checks if the person can vote (age 18 or above) and print "Can vote" or "Cannot vote". 
+9. Declare a variable isWeekend with value true. Write code that prints "No work today!" if it's weekend, otherwise print "Time to work!". 
+10. Create a variable num with value 24. Write code to check if the number is even or odd and print the result. 
+11. Write code that takes a variable marks (value 85) and assigns a grade based on: 
+90-100: A, 80-89: B, 70-79: C, 60-69: D, below 60: F. Print the grade. 
+12. Create variables for length and width of a rectangle (values 5 and 10). Calculate and print both the area and perimeter. 
+13. Write code with a variable year (value 2024). Check if it's a leap year or not. (Leap year: divisible by 4, but if divisible by 100, must also be divisible by 400). Print the result. 
+14. Create a variable number with value 47. Write code that checks if the number is divisible by both 3 AND 5, just by 3, just by 5, or by neither. Print appropriate messages for each case. 
+15. Write code with three variables: subject1, subject2, subject3 containing marks 
+(values 78, 85, 92). Calculate the average and print "Excellent" if average >= 90, "Good" if >= 75, "Average" if >= 60, otherwise "Needs improvement". 
+16. Create a variable character with value "A". Write code to check if it's an uppercase letter, lowercase letter, or neither (you can assume it's a single character). Print the result. 
+17. Write code with variables age (value 25) and hasLicense (value true). A person can drive only if they are 18 or older AND have a license. Print whether they can drive or not. 
+18. Create a variable totalAmount with value 1000 and isMember with value true. If the person is a member, apply a 20% discount, otherwise 5% discount. Calculate and print the final amount. 
+19. Write code with a variable number (value 15). Print all numbers from 1 to that number, but only print numbers divisible by 3. 
+20. Create variables hour (value 14) representing time in 24-hour format. Write code that prints "Good morning" (5-11), "Good afternoon" (12-17), "Good evening" (18-21), or "Good night" (22-4). 
+ 
+SUBMISSION INSTRUCTIONS. 
+ 
+Create a repository called javascript exercises, the folder should contain 4 .js files called exercise1 , exercise2 , exercise3 and exercise4. Each file should contain the solution 5 questions sequentially i.e file 1 should contain the solution of question 1 - 5 and so on. 
+ 
+Once you are done , upload the repository to Github , make the code public.  
+ 
+You are to submit the repository link via a google form I will drop soon. 
+ 
+Goodluck and God speed!  
+ 
