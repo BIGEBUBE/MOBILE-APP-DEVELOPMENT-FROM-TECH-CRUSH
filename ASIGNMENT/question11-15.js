@@ -42,4 +42,21 @@ if (number % 3 === 0 && number % 5 === 0) {
 } else {
     console.log(number, "is not divisible by 3 or 5.");
 }
-
+//15. Write code with three variables: subject1, subject2, subject3 containing marks 
+//(values 78, 85, 92). Calculate the average and print "Excellent" if average >= 90, "Good" if >= 75, "Average" if >= 60, otherwise "Needs improvement". 
+// 15. Average marks and performance rating
+let subject1 = 78;
+let subject2 = 85;
+let subject3 = 92;
+// Step 1: Calculate the average
+let average = (subject1 + subject2 + subject3) / 3;
+// Step 2: Check the rating
+if (average >= 90) {
+    console.log("Average Score:", average, "- Excellent");
+} else if (average >= 75) {
+    console.log("Average Score:", average, "- Good");
+} else if (average >= 60) {
+    console.log("Average Score:", average, "- Average");
+} else {
+    console.log("Average Score:", average, "- Needs improvement");
+}
