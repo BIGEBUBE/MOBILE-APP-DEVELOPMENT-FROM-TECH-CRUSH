@@ -36,3 +36,26 @@ if (num % 2 === 0) {
 } else {
     console.log(num, "is an Odd number.");
 }
+//11. Write code that takes a variable marks (value 85) and assigns a grade based on: 
+//90-100: A, 80-89: B, 70-79: C, 60-69: D, below 60: F. Print the grade.
+let marks = 85;
+let grade;
+if (marks >= 90) {
+    grade = "A";
+} else if (marks >= 80) {
+    grade = "B";
+} else if (marks >= 70) {
+    grade = "C";
+} else if (marks >= 60) {
+    grade = "D";
+} else {
+    grade = "F";
+}
+console.log("With a score of ",marks ," your grade is:",grade);
+//12. Create variables for length and width of a rectangle (values 5 and 10). Calculate and print both the area and perimeter.
+let length = 5;
+let width = 10;
+let area = length * width;
+let perimeter = 2 * (length + width);
+console.log("The Area of the rectangle is:", area);
+console.log("The Perimeter of the rectangle is:", perimeter);
