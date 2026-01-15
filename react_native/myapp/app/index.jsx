@@ -8,22 +8,24 @@ import {
   View
 } from 'react-native';
 
+import Button from "../components/button.jsx";
+
 //import { SafeAreaView } from 'react-native-safe-area-context';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-export default function Hello() {
+export default function index() {
   const insets = useSafeAreaInsets(); 
   return (
     <View
       style={{
         flex: 1,
-        backgroundColor: 'lightblue',
-         paddingTop: insets.top + 10,      // ← respect status bar / notch + extra space
-        paddingBottom: insets.bottom + 20, // ← respect home indicator / navigation bar
+        backgroundColor: 'white',
+        paddingTop: insets.top + 10,     
+        paddingBottom: insets.bottom + 20,
         paddingHorizontal: 20,
         //paddingTop:50,
-        //justifyContent: 'center',      // keeps text vertically centered
-        //alignItems: 'center',          // centers text horizontally (optional but recommended)
+        //justifyContent: 'center',     
+        //alignItems: 'center',         
         paddingHorizontal: 20,
       }}
     >
@@ -38,9 +40,9 @@ export default function Hello() {
           backgroundColor: 'white',
           fontWeight: 'bold',          
           paddingVertical: 10,
-          paddingHorizontal: 20,        // better spacing
-          marginBottom: 10,             // space between the two texts
-          borderRadius: 10,             // nice rounded corners (optional)
+          paddingHorizontal: 20,     
+          marginBottom: 10,          
+          borderRadius: 10,          
         }}
       >
         hello
@@ -89,7 +91,7 @@ export default function Hello() {
             <Text>hello clic here!</Text>
             </TouchableOpacity>
         
-
+          <Button text="touch"/>
 
     </View>
   );
