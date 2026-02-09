@@ -57,7 +57,9 @@ export default function index() {
             justifyContent: "center", // centers the group of buttons horizontally
           }}
         >
-          {/* Removed alignSelf: "flex-end" from all buttons */}
+          <Input type="default" label="Name" placeholder="your Fullname" />
+          <Input type="email-address" label="Email" placeholder="Valid Email" />
+          <Input type="number-pad" label="number" placeholder="Phone number" />
           <Button text="not" style={{ backgroundColor: "yellow" }} />
           <Button text="not" style={{ backgroundColor: "yellow" }} />
           <Button text="not" style={{ backgroundColor: "yellow" }} />
